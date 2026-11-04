@@ -22,5 +22,6 @@ private:
 int main()
 {
     Doctor ali { "Ali", 56, 'd' }; 
+    Doctor sara { "Sara", 34, 'n' }; 
     return 0; 
 }
