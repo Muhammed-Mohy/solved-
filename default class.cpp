@@ -12,6 +12,11 @@ public:
         {
 
         }
+    
+    void kisses( const Doctor& i )
+    {
+        std::cout << m_name << " kisses " << i.m_name; 
+    }
 
 private: 
     std::string m_name{}; 
@@ -23,5 +28,7 @@ int main()
 {
     Doctor ali { "Ali", 56, 'd' }; 
     Doctor sara { "Sara", 34, 'n' }; 
+    ali.kisses(sara); 
+
     return 0; 
 }
